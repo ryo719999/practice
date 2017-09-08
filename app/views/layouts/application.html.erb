@@ -5,16 +5,17 @@
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
+  <meta content="width=320, minimum-scale=0.5" name="viewport" />
 </head>
 <%
-admin_name = 'Portfolio.Ryo719999';
+admin_name = 'Ryo719999';
 %>
-<body>
+<body class="body-class">
 
 <%= yield %>
 
 <div class="grid-x">
-	<div class="medium-12 cell text-center">
+	<div class="large-12 small-12 columns text-center">
 		<div class="footer">
 			Copyright &copy; <%=admin_name %> All rights reserved.
 		</div>	

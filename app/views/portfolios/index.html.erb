@@ -1,95 +1,11 @@
-<p id="notice"><%= notice %></p>
-
-<div class="grid-container">
-	<div class="grid-x grid-padding-x">
-		<div class="medium-12 cell">
-			<article class="top_contents">
-				<section>
-					<div class="grid-x grid-padding-x">
-						<div class="medium-3 cell text-center"></div>
-						<div class="medium-6 cell text-right">
-							<h1 class="subheader top_logo">Portfolio</h1>
-							<h2 class="subheader top_log_sub">Ryo719999</h2>
-						</div>
-						<div class="medium-3 cell text-center"></div>
-					</div>
-				</section>
-			</article>
-			<article class="contents">
-				<section>
-					<div class="grid-x grid-padding-x">
-						<div class="medium-12 cell text-center">
-							<h1 class="subheader">Skill Set</h1>
-						</div>
-					</div>
-					<div class="grid-x grid-padding-x">
-						<div class="medium-3 cell">PHP ★★★★☆</div>
-						<div class="medium-3 cell">HTML ★★★★★</div>
-						<div class="medium-3 cell">Bootstrap ★★★☆☆</div>
-						<div class="medium-3 cell">Foundation6 ★☆☆☆☆</div>
-						<div class="medium-3 cell">MySQL ★★★★☆</div>
-						<div class="medium-3 cell">Apache ★★★★☆</div>
-						<div class="medium-3 cell">Java ★★★☆☆</div>
-						<div class="medium-3 cell">OracleDB ★★★☆☆</div>
-						<div class="medium-3 cell">PL/SQL ★★★☆☆</div>
-						<div class="medium-3 cell">IIS ★★★☆☆</div>
-						<div class="medium-3 cell">Weblogic ★★★☆☆</div>
-						<div class="medium-3 cell">AWS ★★★☆☆</div>
-						<div class="medium-3 cell">SVN ★★★★★</div>
-						<div class="medium-3 cell">Heroku ★☆☆☆☆</div>
-						<div class="medium-3 cell">Git ★☆☆☆☆</div>
-						<div class="medium-3 cell">jQuery ★★★★☆</div>
-				        <div class="medium-3 cell">Ajax ★★★☆☆</div>
-				        <div class="medium-3 cell">Linux ★★★☆☆</div>
-					</div>
-					<div class="grid-x grid-padding-y">
-						<div class="medium-12 cell text-left">Star Mark.</div>
-						<div class="row">
-							<ul>
-								<li>★☆☆☆☆：No practical experience or studying.</li>
-								<li>★★☆☆☆：Work experience less than 1 year.</li>
-								<li>★★★☆☆：Work experience 1 to 3 years.</li>
-								<li>★★★★☆：3 year of practical experience.</li>
-								<li>★★★★★：At least 5 year practical experience.</li>
-							</ul>
-						</div>
-					</div>
-				</section>
-			</article>
-			<article class="contents">
-				<section>
-					<div class="grid-x grid-padding-x">
-						<div class="medium-12 cell text-center">
-							<h1 class="subheader">Profile</h1>
-						</div>
-					</div>
-					<div class="grid-x grid-padding-x">
-						<% @profiles.each do |profile| %>
-						<div class="medium-6 cell">
-							<h2><%=profile.name%></h2>
-							<ul>
-								<li>Address：<%=profile.address %></li>
-								<li>Email：<%=profile.email %></li>
-							</ul>
-							<br>
-							<h4>Environment to develop</h4>
-							<ul>
-								<li>OS：windows / Linux</li>
-								<li>IDE：Eclipse / Aptana</li>
-								<li>Paas：Heroku</li>
-								<li>GitHub：https://github.com/ryo719999</li>
-							</ul>
-						</div>
-						<div class="medium-6 cell">
-							<h4>A Career</h4>
-							<p class="descrition"><%=profile.description %></p>
-						</div>
-						<% end %>
-					</div>
-				</section>
-			</article>
-		</div>
+<div class="grid-x text-center">
+	<div class="large-12 small-12 columns">
+		Portfolio.Ryo719999
+	</div>
+	<div class="large-12 small-12 columns">
+		Skill Sets
+	</div>
+	<div class="large-12 small-12 columns">
+		Profile
 	</div>
 </div>
-
-
