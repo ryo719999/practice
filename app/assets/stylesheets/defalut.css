@@ -91,8 +91,7 @@ border-collapse:collapse;
 border-spacing:0;
 }
 
-/* change border colour to suit your needs 
-*/
+/* change border colour to suit your needs */
 hr {
 display:block;
 height:1px;
@@ -104,16 +103,6 @@ padding:0;
 
 input, select {
 vertical-align:middle;
-}
-
-/*****************************************/
-/*****************************************/
-/*****************************************/
-/**
- * 	test用あとで消す
- */
-section {
-/*	border:1px solid green;*/
 }
 
 /**
@@ -148,35 +137,38 @@ section {
 	padding:0 30px;
 }
 /**
+ * 	work_job-career
  */
- * 	work_timeline
- */
-.timeline {
+.job-career {
 	list-style:none;
 }
-.timeline > li {
+.job-career > li {
 	margin-bottom:100px;
 }
 @media (min-width:640px){
-	.timeline > li {
+	.job-career {
+		list-style:none;
+	}
+	.job-career > li {
 	  overflow: hidden;
 	  margin: 0;
 	  position: relative;
 	}
-	.timeline-date {
+	
+	.job-career-date {
 	  width: 110px;
 	  float: left;
 	  margin-top: 20px;
 	  padding-top:30px;
 	}
-	.timeline-content {
+	.job-career-content {
 	  width: 75%;
 	  float: left;
 	  border-left: 3px #e5e5d1 solid;
 	  padding-left: 30px;
 	  padding-top:30px;
 	}
-	.timeline-content:before {
+	.job-career-content:before {
 	  content: '';
 	  width: 12px;
 	  height: 12px;
