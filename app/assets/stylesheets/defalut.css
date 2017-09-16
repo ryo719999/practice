@@ -40,6 +40,10 @@ nav ul {
 list-style:none;
 }
 
+li {
+	list-style:none;
+}
+
 blockquote, q {
 quotes:none;
 }
@@ -109,7 +113,7 @@ vertical-align:middle;
  * 	test用あとで消す
  */
 section {
-	border:1px solid green;
+/*	border:1px solid green;*/
 }
 
 /**
@@ -120,7 +124,32 @@ section {
 	width:100%;
 }
 /**
- * 	work
+ * 	section_contents
+ */
+.section_contents {
+	height:100%;
+	width:100%;
+	display:table;
+	text-align:center;
+}
+.section_contents_sub {
+	display:table-cell;
+	vertical-align:middle;
+}
+/**
+ * 	skill_contents
+ */
+.skill_contents {
+	width:80%;
+	margin:0 auto;
+}
+.skill_contents_sub {
+	margin:0 auto;
+	padding:0 30px;
+}
+/**
+ */
+ * 	work_timeline
  */
 .timeline {
 	list-style:none;
@@ -168,53 +197,28 @@ section {
 	padding:0;
 }
 /**
- * 	profile_about
+ * 	profile
  */
-.profile_acout {
+.profile_about {
 	width:100%;
+	margin:0 auto;
 }
 @media (min-width:640px){
-	.profile_acout {
+	.profile_about {
 		width:50%;
+		margin:0 auto;
 	}
 }
-
-/**
- * 	test
- */
-.test_border {
-	border:1px solid red;
+.profile_contents {
+	width:80%;
+	margin:0 auto;
 }
-h1 {
-	font-size:6.0em;
-}
-article.top_contents {
-	margin: 20em 0px 30em 0px;
+.profile_contents_sub {
+	margin:0 auto;
+	padding:0 30px;
 }
 /**
- * 	Top
- */
-.top_logo {
-	padding-right:10%;
-}
-.top_log_sub {
-	padding-right:10%;
-}
-/**
- * 	Contents
- */
-article.contents {
-	margin: 0px 0px 30em 0px;
-}
-/**
- * 	Profile
- */
-p.descrition {
-	font-size:0.9em;
-}
-
-/**
- * 	Footer
+ * 	footer
  */
 .footer {
 	margin:40px 0;
