@@ -210,6 +210,12 @@ vertical-align:middle;
 	padding:0 30px;
 }
 /**
+ * 	profile_about
+ */
+.profile_contents_sub > div:first-child {
+	font-weight:bold;
+} 
+/**
  * 	footer
  */
 .footer {
